@@ -4,7 +4,7 @@ var topics = ["Daenerys Targaryen", "Jon Snow", "Jaime Lannister", "Cersei Lanni
 var characterSelected = "";
 var newCharacter;
 
-//creates newTopic onclick event
+
 $("#newTopic").on("click", function () {
 var button = $("<button>");
 button.text($("#userTopic").val())
@@ -15,7 +15,6 @@ attachEvent();
 
 
 
-//this creates buttons to be used on the page
 makeButtons();
 function makeButtons() {
     $("#gotButtons").empty();
